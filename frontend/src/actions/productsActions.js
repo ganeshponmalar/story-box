@@ -12,6 +12,7 @@ export const getProducts = (keyword, currentPage) => async (dispatch) => {
         if (keyword) {  
 
             link += `&keyword=${keyword}`;   
+            console.log(link)
             
         }
 
